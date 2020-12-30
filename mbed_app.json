@@ -1,0 +1,22 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate"                  : 115200,
+            "platform.stdio-convert-newlines"           : true,
+            "platform.stdio-buffered-serial"            : true,
+            "platform.stdio-flush-at-exit"              : true
+        }
+    },
+    "config": {
+        "AS289R2-TX": {
+            "help"      : "AS289R2 TX pin name",
+            "value"     : "D1",
+            "macro_name": "AS289R2_TX"
+        },
+        "AS289R2-RX": {
+            "help"      : "AS289R2 RX pin name",
+            "value"     : "D0",
+            "macro_name": "AS289R2_RX"
+        }
+    }
+}
