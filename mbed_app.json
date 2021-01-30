@@ -5,6 +5,10 @@
             "platform.stdio-convert-newlines"           : true,
             "platform.stdio-buffered-serial"            : true,
             "platform.stdio-flush-at-exit"              : true
+        },
+        "GR_MANGO": {
+            "AS289R2-TX"    : "P6_3",
+            "AS289R2-RX"    : "P6_2"
         }
     },
     "config": {
