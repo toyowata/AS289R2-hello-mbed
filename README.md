@@ -4,6 +4,26 @@ The AS-289R2 is the industry's most advanced two-inch thermal printer. You can d
 
 https://os.mbed.com/components/AS-289R2-Thermal-Printer-Shield/
 
+## Mbed OS build tool
+### Mbed CLI 2
+Starting with version 6.5, Mbed OS uses Mbed CLI 2. It uses Ninja as a build system, and CMake to generate the build environment and manage the build process in a compiler-independent manner. If you are working with Mbed OS version prior to 6.5 then check the section [Mbed CLI 1](https://github.com/ARMmbed/mbed-os-example-blinky#mbed-cli-1).
+1. [Install Mbed CLI 2](https://os.mbed.com/docs/mbed-os/v6.7/build-tools/install-or-upgrade.html)
+2. From the command-line, import the example: `mbed-tools import https://github.com/toyowata/AS289R2-hello-mbed`
+3. Change the current directory to where the project was imported.
+4. Build the example: `mbed-tools compile -m <target> -t <toolchain>`
+
+### Mbed CLI 1
+1. [Install Mbed CLI 1](https://os.mbed.com/docs/mbed-os/latest/quick-start/offline-with-mbed-cli.html)
+2. From the command-line, import the example: `mbed import https://github.com/toyowata/AS289R2-hello-mbed`
+3. Change the current directory to where the project was imported.
+4. Build the example: `mbed compile -m <target> -t <toolchain>`
+
+### Mbed Studio
+1. [Download and install Mbed Studio](https://os.mbed.com/studio/)
+2. From menu [File] - [Import Program...]
+3. Add `https://github.com/toyowata/AS289R2-hello-mbed` to URL in the import dialog and press `Add Program` button
+4. Build program
+
 ## Pinout
 
 <img width="600" src="https://os.mbed.com/media/components/pinouts/jumper.png">
